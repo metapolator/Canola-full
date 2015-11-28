@@ -1,4 +1,4 @@
-@import 'lib/flexmaster.cps';
+@import 'lib/metapolator/metamaster.cps';
 
 glyph, point > center, contour > p, component  {
     sidebearingLeftSummand: 0.5 * master:SpacingS + 0.5 * glyph:SpacingS;
@@ -16,6 +16,8 @@ master {
     WidthF: 1;
     HeightF: 1;
     WeightF: 1;
+    /* move to properties DB */
+    baseMaster: S"master#base";
 }
 
 glyph {
