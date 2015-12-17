@@ -1,0 +1,106 @@
+languagesystem DFLT dflt;
+
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    pos \A \T -80;
+    pos \A \V -100;
+    pos \A \W -100;
+    pos \A \quotedblright -120;
+    pos \L \quotedblright -270;
+    pos \R \quotedblright -130;
+    pos \T \A -80;
+    pos \T \comma -120;
+    pos \T \o -90;
+    pos \T \period -110;
+    pos \T \quotedblright 40;
+    pos \T \quoteright 50;
+    pos \T \y -30;
+    pos \V \A -100;
+    pos \V \comma -130;
+    pos \V \period -100;
+    pos \V \quotedblright 60;
+    pos \V \quoteright 40;
+    pos \W \A -100;
+    pos \W \comma -170;
+    pos \W \period -160;
+    pos \W \quotedblright 60;
+    pos \W \quoteright 50;
+    pos \X \quoteright 20;
+    pos \Y \comma -180;
+    pos \Y \quotedblright 80;
+    pos \Y \quoteright 40;
+    pos \comma \quotedblright -130;
+    pos \e \T -80;
+    pos \e \quotedblright -30;
+    pos \f \quotedblright 180;
+    pos \f \quoteright 160;
+    pos \four \seven -60;
+    pos \hyphen \Y -100;
+    pos \m \quotedblright -90;
+    pos \o \T -60;
+    pos \o \quoteright -80;
+    pos \period \quotedblright -150;
+    pos \quotedblleft \A -130;
+    pos \quotedblleft \C -30;
+    pos \quotedblleft \G -70;
+    pos \quotedblleft \O -40;
+    pos \quotedblleft \S -30;
+    pos \quotedblleft \T 30;
+    pos \quotedblleft \V 60;
+    pos \quotedblleft \W 60;
+    pos \quotedblleft \Y 80;
+    pos \quotedblleft \c -90;
+    pos \quotedblleft \e -60;
+    pos \quotedblleft \g -60;
+    pos \quotedblleft \o -120;
+    pos \quoteleft \C -40;
+    pos \quoteleft \G -30;
+    pos \quoteleft \T 30;
+    pos \quoteleft \V 30;
+    pos \quoteleft \W 40;
+    pos \quoteleft \X 20;
+    pos \quoteleft \Y 30;
+    pos \quoteleft \o -90;
+    pos \seven \eight -20;
+    pos \seven \four -80;
+    pos \seven \six -60;
+    pos \seven \two -40;
+    pos \seven \zero -30;
+    pos \two \seven -40;
+} kernHorizontalKerninglookup0;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+} kern;
+
+@GDEF_Simple = [\A \AE \Aacute \B \C \D \E \Euro \F \G \H \I \J \K \L \M \N \O \OE \P \Q \R 
+	\Racute \S \T \U \V \W \X \Y \Z \a \acute \ae \ampersand \approxequal \asciicircum 
+	\asciitilde \asterisk \at \b \backslash \bar \braceleft \braceright \bracketleft 
+	\bracketright \breve \brokenbar \bullet \c \caron \cedilla \cent \circumflex 
+	\colon \comma \copyright \currency \d \dagger \daggerdbl \degree \dieresis 
+	\divide \divisionslash \dollar \dotaccent \dotlessi \e \eight \ellipsis \emdash 
+	\endash \equal \estimated \exclam \exclamdown \f \fi \five \fl \four \fraction \g 
+	\germandbls \grave \greater \greaterequal \guillemotleft \guillemotright 
+	\guilsinglleft \guilsinglright \h \hungarumlaut \hyphen \i \infinity \j \k \l 
+	\less \lessequal \m \macron \minus \multiply \n \nine \notequal \numbersign \o \oe 
+	\ogonek \omegamath \one \onehalf \onequarter \onesuperior \ordfeminine \p 
+	\paragraph \parenleft \parenright \partialdiff \percent \period 
+	\periodcentered \perthousand \plus \plusminus \product \q \question 
+	\questiondown \quotedbl \quotedblbase \quotedblleft \quotedblright \quoteleft 
+	\quoteright \quotesinglbase \quotesingle \r \racute \registered \ring \s 
+	\section \semicolon \seven \six \slash \space \sterling \summation \t \three 
+	\threequarters \threesuperior \tilde \trademark \two \twosuperior \u 
+	\underscore \v \w \x \y \yen \z \zero ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

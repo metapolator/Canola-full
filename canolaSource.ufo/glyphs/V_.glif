@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="V" format="1">
+  <advance width="762"/>
+  <unicode hex="0056"/>
+  <outline>
+    <contour>
+      <point x="652" y="722" type="line"/>
+      <point x="549" y="722" type="line" name="trl"/>
+      <point x="549" y="702" type="line" name="trl"/>
+      <point x="652" y="702" type="line"/>
+    </contour>
+    <contour>
+      <point x="110" y="722" type="line"/>
+      <point x="7" y="722" type="line" name="tll"/>
+      <point x="7" y="702" type="line" name="tll"/>
+      <point x="110" y="702" type="line"/>
+    </contour>
+    <contour>
+      <point x="652" y="702" type="line"/>
+      <point x="755" y="702" type="line" name="trr"/>
+      <point x="755" y="722" type="line" name="trr"/>
+      <point x="652" y="722" type="line"/>
+    </contour>
+    <contour>
+      <point x="110" y="702" type="line"/>
+      <point x="213" y="702" type="line" name="tlr"/>
+      <point x="213" y="722" type="line" name="tlr"/>
+      <point x="110" y="722" type="line"/>
+    </contour>
+    <contour>
+      <point x="652" y="722" type="line" name="stem2"/>
+      <point x="374" y="0" type="line" name="stem2"/>
+      <point x="399" y="0" type="line" name="stem2"/>
+      <point x="676" y="722" type="line" name="stem2"/>
+    </contour>
+    <contour>
+      <point x="86" y="722" type="line" name="stem"/>
+      <point x="368" y="0" type="line" name="stem"/>
+      <point x="393" y="0" type="line" name="stem"/>
+      <point x="111" y="722" type="line" name="stem"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>1</real>
+        <real>0</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

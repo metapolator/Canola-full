@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lessequal" format="1">
+  <advance width="691"/>
+  <unicode hex="2264"/>
+  <outline>
+    <contour>
+      <point x="656" y="676" type="line"/>
+      <point x="37" y="412" type="line"/>
+      <point x="37" y="390" type="line"/>
+      <point x="656" y="654" type="line"/>
+    </contour>
+    <contour>
+      <point x="656" y="148" type="line"/>
+      <point x="37" y="412" type="line"/>
+      <point x="37" y="390" type="line"/>
+      <point x="656" y="126" type="line"/>
+    </contour>
+    <contour>
+      <point x="37" y="0" type="line"/>
+      <point x="656" y="0" type="line"/>
+      <point x="656" y="21" type="line"/>
+      <point x="37" y="21" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90</real>
+          <key>name</key>
+          <string/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>y</key>
+          <integer>654</integer>
+          <key>x</key>
+          <integer>656</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90</real>
+          <key>name</key>
+          <string/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>y</key>
+          <integer>390</integer>
+          <key>x</key>
+          <integer>37</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict/>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1</real>
+        <real>1</real>
+        <real>0</real>
+        <real>1</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
