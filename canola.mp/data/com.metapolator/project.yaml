@@ -1,8 +1,2 @@
-masters:
-  base:
-    cpsFile: base.cps
-    propertiesFile: base.db
-    skeleton: skeleton.base
-  master-regular:
-    cpsFile: master-canola.cps
-    skeleton: skeleton.base
+session:
+  masters: [master-regular]
